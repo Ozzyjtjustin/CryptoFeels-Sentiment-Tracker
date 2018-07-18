@@ -40800,7 +40800,8 @@
 	          { className: 'text-logo' },
 	          React.createElement('img', { id: 'logo', src: '/img/CryptoFeels.png' }),
 	          'CryptoFeels'
-	        )
+	        ),
+	        React.createElement(SearchForm, { emit: props.emit, initTimestamp: props.initTimestamp })
 	      )
 	    )
 	  );

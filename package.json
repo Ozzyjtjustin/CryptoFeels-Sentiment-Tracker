@@ -1,7 +1,7 @@
 {
-  "name": "twitter-sentiment",
+  "name": "CryptoFeels-Sentiment-Tracker",
   "version": "1.0.0",
-  "description": "A Twitter sentiment dashboard for companies who want to monitor the sentiment around their brand",
+  "description": "Track your Favorite CryptoCurrency Sentiment with Twitter",
   "main": "app.js",
   "scripts": {
     "build":"react-scripts build",
@@ -16,10 +16,12 @@
     "url": "git+"
   },
   "keywords": [
+    "crypto",
+    "cryptocurrency",
     "twitter",
     "sentiment"
   ],
-  "author": "Duncan Leung",
+  "author": "Justin Oswald",
   "license": "ISC",
   "bugs": {
     "url": ""

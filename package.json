@@ -4,10 +4,10 @@
   "description": "Track your Favorite CryptoCurrency Sentiment with Twitter",
   "main": "app.js",
   "scripts": {
-    "build":"react-scripts build",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "webpack",
     "start": "node ./server/app-server.js",
+    "build":"react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build"
   },

@@ -4,6 +4,7 @@
   "description": "A Twitter sentiment dashboard for companies who want to monitor the sentiment around their brand",
   "main": "app.js",
   "scripts": {
+    "build":"react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "webpack",
     "start": "node ./server/app-server.js",
